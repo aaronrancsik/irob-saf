@@ -1,0 +1,47 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/aaron/catkin_ws/devel/include/**",
+                "/opt/ros/kinetic/include/**",
+                "/home/aaron/catkin_ws/src/beginner_tutorials/include/**",
+                "/home/aaron/catkin_ws/src/cisst-saw/cisst-ros/cisst_conversions/include/**",
+                "/home/aaron/catkin_ws/src/cisst-saw/cisstNetlib/include/**",
+                "/home/aaron/catkin_ws/src/cisst-saw/cisst-ros/cisst_ros_bridge/include/**",
+                "/home/aaron/catkin_ws/src/dvrk-ros/dvrk_robot/include/**",
+                "/home/aaron/catkin_ws/src/irob-saf/irob_motion/include/**",
+                "/home/aaron/catkin_ws/src/irob-saf/irob_robot/include/**",
+                "/home/aaron/catkin_ws/src/irob-saf/irob_subtask_logic/include/**",
+                "/home/aaron/catkin_ws/src/irob-saf/irob_utils/include/**",
+                "/home/aaron/catkin_ws/src/irob-saf/irob_vision_support/include/**",
+                "/home/aaron/catkin_ws/src/cisst-saw/sawIntuitiveDaVinci/ros/include/**",
+                "/home/aaron/catkin_ws/src/cisst-saw/sawATIForceSensor/components/include/**",
+                "/home/aaron/catkin_ws/src/cisst-saw/sawClaronMicronTracker/components/include/**",
+                "/home/aaron/catkin_ws/src/cisst-saw/sawConstraintController/components/include/**",
+                "/home/aaron/catkin_ws/src/cisst-saw/sawControllers/components/include/**",
+                "/home/aaron/catkin_ws/src/cisst-saw/sawForceDimensionSDK/components/include/**",
+                "/home/aaron/catkin_ws/src/cisst-saw/sawIntuitiveDaVinci/components/include/**",
+                "/home/aaron/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/components/include/**",
+                "/home/aaron/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/examples/derivedTeleOperationPSM/components/include/**",
+                "/home/aaron/catkin_ws/src/cisst-saw/sawKeyboard/components/include/**",
+                "/home/aaron/catkin_ws/src/cisst-saw/sawNDITracker/components/include/**",
+                "/home/aaron/catkin_ws/src/cisst-saw/sawOptoforceSensor/components/include/**",
+                "/home/aaron/catkin_ws/src/cisst-saw/sawRobotIO1394/components/include/**",
+                "/home/aaron/catkin_ws/src/cisst-saw/sawSocketStreamer/components/include/**",
+                "/home/aaron/catkin_ws/src/cisst-saw/sawTextToSpeech/components/include/**",
+                "/home/aaron/catkin_ws/src/cisst-saw/sawUniversalRobot/components/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
