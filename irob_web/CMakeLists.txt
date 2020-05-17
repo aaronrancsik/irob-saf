@@ -229,6 +229,7 @@ add_executable(add_two_ints_client src/add_two_ints_client.cpp)
 target_link_libraries(add_two_ints_client ${catkin_LIBRARIES})
 add_dependencies(add_two_ints_client irob_web_gencpp)
 
+
 add_executable(fibonacci_server src/fibonacci_server.cpp)
 
 target_link_libraries(
@@ -238,5 +239,18 @@ target_link_libraries(
 
 add_dependencies(
   fibonacci_server
+  ${irob_web_EXPORTED_TARGETS}
+)
+
+
+add_executable(fibonacci_client src/fibonacci_client.cpp)
+
+target_link_libraries( 
+  fibonacci_client
+  ${catkin_LIBRARIES}
+)
+
+add_dependencies(
+  fibonacci_client
   ${irob_web_EXPORTED_TARGETS}
 )
