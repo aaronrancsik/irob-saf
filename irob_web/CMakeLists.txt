@@ -15,6 +15,7 @@ find_package(catkin REQUIRED COMPONENTS
   actionlib_msgs
   actionlib
 )
+#find_package(Boost REQUIRED COMPONENTS system)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -227,3 +228,15 @@ add_dependencies(add_two_ints_server irob_web_gencpp)
 add_executable(add_two_ints_client src/add_two_ints_client.cpp)
 target_link_libraries(add_two_ints_client ${catkin_LIBRARIES})
 add_dependencies(add_two_ints_client irob_web_gencpp)
+
+add_executable(fibonacci_server src/fibonacci_server.cpp)
+
+target_link_libraries(
+  fibonacci_server
+  ${catkin_LIBRARIES}
+)
+
+add_dependencies(
+  fibonacci_server
+  ${irob_web_EXPORTED_TARGETS}
+)
